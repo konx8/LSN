@@ -20,3 +20,11 @@ we sort the obtained result<br>
 at the end we return the value.<br>
 
 ## Task 3
+
+In this task, a downward search algorithm was used.<br>
+A `visited` array is created which lists all the pairs that have been visited<br>
+if the pair has not been visited, the `dfs` method is triggered<br>
+This method marks the visited array as visited, then the loop checks whether the vertex is visited and the `visitedShares` method which checks whether such pairs have already occurred<br>
+If so, `graphsCount` is increased by 1 and `visited` is marked as true.<br>
+If not, `visited` is marked as true, graphsCount is not incremented and the `dfs` method is run recursively<br>
+
